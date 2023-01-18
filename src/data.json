@@ -1,0 +1,50 @@
+{
+  "availablePackages": ["Basic", "Sport", "Movies&Series"],
+  "customers": [
+    {
+      "name": "Hotel One",
+      "type": "hotel",
+      "screens": [
+        {
+          "name": "Standard Room 101",
+          "packages": ["Basic"]
+        },
+        {
+          "name": "Deluxe Room 201",
+          "packages": ["Basic", "Movies&Series"]
+        },
+        {
+          "name": "Suite 901",
+          "packages": ["Basic", "Sport", "Concerts", "Movies&Series"]
+        }
+      ]
+    },
+    {
+      "name": "Hotel Two",
+      "type": "hotel",
+      "screens": [
+        {
+          "name": "Standard Room 101",
+          "packages": ["Basic"]
+        },
+        {
+          "packages": ["Basic"]
+        },
+        {
+          "name": "Standard Room 103",
+          "packages": ["Basic"]
+        }
+      ]
+    },
+    {
+      "name": "Hotel Three",
+      "type": "hotel",
+      "screens": [
+        {
+          "name": false,
+          "packages": ["Basic", "Movies&Series", "Sport"]
+        }
+      ]
+    }
+  ]
+}
