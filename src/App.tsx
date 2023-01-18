@@ -1,4 +1,3 @@
-import React from "react";
 import "./App.css";
 import { AppBar, Box, Container, Toolbar, Typography } from "@mui/material";
 
