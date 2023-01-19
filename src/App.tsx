@@ -1,34 +1,13 @@
 import "./App.css";
-import { AppBar, Box, Container, Toolbar, Typography } from "@mui/material";
+import LayoutNavigation from "./components/LayoutNavigation";
 
-const customerData = require("./data.json");
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <AppBar>
-        <Container maxWidth="xl">
-          <Toolbar disableGutters>
-            <Typography variant="h5" noWrap>
-              Nenda Customer Portal
-            </Typography>
-          </Toolbar>
-        </Container>
-      </AppBar>
-      <Toolbar />
-      <Box className="App-content">
-        {customerData.customers.map((c: any) => {
-          return (
-            <>
-              <Typography variant="h6">{c.name}</Typography>
-              {c.screens.map((s: any) => (
-                <Typography variant="h5">{s.id}</Typography>
-              ))}
-            </>
-          );
-        })}
-      </Box>
-    </div>
+    <Router>
+      <LayoutNavigation />
+    </Router>
   );
 }
 

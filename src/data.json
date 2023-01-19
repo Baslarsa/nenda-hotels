@@ -1,48 +1,66 @@
 {
-  "availablePackages": ["Basic", "Sport", "Movies&Series"],
+  "availablePackages": ["Basic", "Sport", "Movies&Series", "Concerts"],
   "customers": [
     {
-      "name": "Hotel One",
+      "name": "Elite Hotels",
+      "id": 1,
       "type": "hotel",
       "screens": [
         {
           "name": "Standard Room 101",
-          "packages": ["Basic"]
+          "packages": ["Basic"],
+          "status": "active",
+          "streaming_length": 564
         },
         {
           "name": "Deluxe Room 201",
-          "packages": ["Basic", "Movies&Series"]
+          "packages": ["Basic", "Movies&Series"],
+          "status": "inactive",
+          "streaming_length": 1233
         },
         {
           "name": "Suite 901",
-          "packages": ["Basic", "Sport", "Concerts", "Movies&Series"]
+          "packages": ["Basic", "Sport", "Concerts", "Movies&Series"],
+          "status": "active",
+          "streaming_length": 1299
         }
       ]
     },
     {
-      "name": "Hotel Two",
+      "name": "Scandic Malmen",
+      "id": 2,
       "type": "hotel",
       "screens": [
         {
           "name": "Standard Room 101",
-          "packages": ["Basic"]
+          "packages": ["Basic"],
+          "status": "active",
+          "streaming_length": 344
         },
         {
-          "packages": ["Basic"]
+          "name": "Standard Room 102",
+          "packages": ["Basic"],
+          "status": "active",
+          "streaming_length": 183
         },
         {
           "name": "Standard Room 103",
-          "packages": ["Basic"]
+          "packages": ["Basic"],
+          "status": "active",
+          "streaming_length": 10
         }
       ]
     },
     {
-      "name": "Hotel Three",
+      "name": "First Hotel",
+      "id": 3,
       "type": "hotel",
       "screens": [
         {
           "name": false,
-          "packages": ["Basic", "Movies&Series", "Sport"]
+          "packages": ["Basic", "Movies&Series", "Sport"],
+          "status": "active",
+          "streaming_length": 1459
         }
       ]
     }

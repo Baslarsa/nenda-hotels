@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3ba0e98c.css",
+    "main.js": "/static/js/main.b7687d86.js",
+    "static/js/787.b8288a26.chunk.js": "/static/js/787.b8288a26.chunk.js",
+    "static/media/Gilroy-ExtraBold.otf": "/static/media/Gilroy-ExtraBold.0094146a0505298ed06a.otf",
+    "static/media/Gilroy-Light.otf": "/static/media/Gilroy-Light.cc7ab55d27205bd64001.otf",
+    "index.html": "/index.html",
+    "main.3ba0e98c.css.map": "/static/css/main.3ba0e98c.css.map",
+    "main.b7687d86.js.map": "/static/js/main.b7687d86.js.map",
+    "787.b8288a26.chunk.js.map": "/static/js/787.b8288a26.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ba0e98c.css",
+    "static/js/main.b7687d86.js"
+  ]
+}
